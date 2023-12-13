@@ -1,0 +1,18 @@
+                                Which of the following is not a storage class specifier in C?
+
+                                (A) auto 
+
+                                (B) register 
+
+                                (C) static
+
+                                (D) volatile
+@
+
+$D$
+
+
+~ 
+                                Explanation: 
+                                volatile is not a storage class specifier. 
+                                volatile and const are type qualifiers.

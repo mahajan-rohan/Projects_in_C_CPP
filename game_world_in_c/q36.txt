@@ -1,0 +1,18 @@
+                                Which of the following can be used to create an abstract class in the C++ programming language?
+
+                                (A) By using the pure virtual function in the class
+
+                                (B) By declaring a virtual function in the base class
+
+                                (C) By declaring the virtual keyword afterward, the class Declaration
+
+                                (D) None of the above
+@
+
+$A$
+
+~
+                                Explanation: 
+                                A class must contain at least one declaration of the pure virtual function in 
+                                itself to be called an abstract class.Therefore to make an abstract class, 
+                                one has to declare at least one pure virtual function in that class.

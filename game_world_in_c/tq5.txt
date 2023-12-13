@@ -1,0 +1,17 @@
+                                Which file is generated after pre-processing of a C program?
+
+                                (A) .p
+
+                                (B) .i
+
+                                (C) .o
+
+                                (D) .m
+@
+
+$B$
+
+~
+                                Explanation: 
+                                After the pre-processing of a C program, a .i file is 
+                                generated which is passed to the compiler for compilation. 

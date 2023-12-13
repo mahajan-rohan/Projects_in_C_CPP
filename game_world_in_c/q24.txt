@@ -1,0 +1,21 @@
+                                How many times will the following loop execute?
+
+                                for(j = 1; j <= 10; j = j-1) 
+
+                                (A) Forever
+
+                                (B) Never
+
+                                (C) 0 times
+
+                                (D) 1 time only
+@
+
+$A$
+
+~
+                                Explanation: 
+                                As the j will iitialize will 1 then condition 1<=10 is true 
+                                then the value of j will bw modified to j=j-1 i.e j=1-1=0
+                                so now the j is zero.Therefore, the condition will always 
+                                be true as j will modify to negative values which are less than 10

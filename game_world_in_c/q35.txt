@@ -1,0 +1,20 @@
+                                Which one of the following statements correctly refers to the Delete and Delete[] 
+                                in C++ programming language?
+
+                                (A) Delete is syntactically correct although, if the Delete[] is used, it will obtain an error.
+
+                                (B) The "Delete" is used for deleting the standard objects, while on the other hand, 
+                                the "Delete[]" is used to delete the pointer objects
+
+                                (C) The "Delete" is a type of keyword, whereas the "Delete[]" is a type of identifier
+
+                                (D) The "Delete" is used for deleting a single standard object, whereas the 
+                                "Delete[]" is used for deleting an array of the multiple objects
+@
+
+$D$
+
+~
+                                Explanation: 
+                                The "Delete" is used with the single general object, while on the other hand, 
+                                the "Delete[]" is used with the array of the multiple objects initiated with the new operator.

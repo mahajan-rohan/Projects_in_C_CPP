@@ -1,0 +1,21 @@
+                                In the statement 
+                            
+                                cout << "javatpoint" << endl;
+
+                                endl is a ___.
+
+                                (A) Extractor
+
+                                (B) Inserter
+
+                                (C) Manipulator
+
+                                (D) Terminator
+@
+
+$C$
+
+~
+                                Explanation: 
+                                Endl is an I/O manipulator that takes effect in printing 
+                                a new line '\ n' character and then flushing the output stream.

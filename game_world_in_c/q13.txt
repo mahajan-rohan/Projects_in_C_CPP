@@ -1,0 +1,19 @@
+                            Which of the following is not an operator in C?
+
+                            (A) ,
+
+                            (B) sizeof()
+
+                            (C) ~
+
+                            (D) None of the mentioned
+@
+
+$D$
+
+~
+                            Explanation: 
+                            All the above are the operators in c
+                            , Comma operator
+                            sizeof()  Returns the size of data type
+                            ~  Bitwise NOT operator

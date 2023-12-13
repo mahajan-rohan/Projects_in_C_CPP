@@ -1,0 +1,17 @@
+                                Which of the following is not a type of Constructor?
+
+                                (A) Friend constructor
+
+                                (B) Copy constructor
+
+                                (C) Default constructor
+
+                                (D) Parameterized constructor
+    @
+
+$A$
+
+~
+                                Explanation: 
+                                Friend function is not a constructor 
+                                whereas others are a type of constructor used for object initialization.

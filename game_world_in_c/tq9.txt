@@ -1,0 +1,75 @@
+								What will be the output of the following C++ code?
+					
+								#include <iostream>
+								using namespace std;
+					
+								class Test {
+								static int count;
+								int id;
+								public:
+								Test() {
+									count++;
+									id = count;
+								cout << "Constructing object number " << id << endl;
+									if(id == 4)
+									throw 4;
+								}
+								~Test() { cout << "Destructing object number " << id << endl; }
+								};
+
+								int Test::count = 0;
+
+							int main() {
+								try {
+									Test array[5];
+								} catch(int i) {
+									cout << "Caught " << i << endl;
+								}
+								}
+
+							(A)   Constructing object number 1
+									Constructing object number 2
+									Constructing object number 3
+									Constructing object number 4
+									Destructing object number 1
+									Destructing object number 2
+									Destructing object number 3
+									Destructing object number 4
+									Caught 4
+
+								(B)   Constructing object number 1
+									Constructing object number 2
+										Constructing object number 3
+										Constructing object number 4
+										Destructing object number 3
+										Destructing object number 2
+										Destructing object number 1
+										Caught 4
+
+								(C)   Constructing object number 1
+										Constructing object number 2
+										Constructing object number 3
+										Constructing object number 4
+										Destructing object number 4
+										Destructing object number 3
+										Destructing object number 2
+										Destructing object number 1
+										Caught 4
+
+								(D)   Constructing object number 1
+										Constructing object number 2
+										Constructing object number 3
+										Constructing object number 4
+										Destructing object number 1
+										Destructing object number 2
+										Destructing object number 3
+										Caught 4
+@
+
+$B$
+
+~
+								Explanation: 
+								The destructors are called in reverse order of constructors. 
+								Also, after the try block, the destructors are called only 
+								for completely constructed objects.

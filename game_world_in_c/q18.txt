@@ -1,0 +1,33 @@
+                                What is the output of this C code?
+
+                                #include <stdio.h>
+                                int main()
+                                {
+                                    float f = 0.1;
+                                    if (f == 0.1)
+                                        printf("True");
+                                    else
+                                        printf("False");
+                                }
+
+                                (A) True
+
+                                (B) False
+
+                                (C) No Output will be printed
+
+                                (D) Run Time Error
+@
+
+$B$
+
+~
+                                Explanation: 
+                                This is because the float variable "f" is assigned the value of 0.1, which is a decimal number.
+                                However, decimal numbers cannot be represented precisely in binary floating-point format used 
+                                by computers, and therefore, the actual value stored in the "f" variable may not be exactly 0.1.
+
+                                When the "if" statement is executed, it checks if the value of "f" is equal to 0.1. 
+                                Since the binary representation of the value stored in "f" may not be exactly 0.1, 
+                                the condition may not be true, and the "else" block will be executed, resulting 
+                                in the output "False".

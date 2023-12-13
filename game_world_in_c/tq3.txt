@@ -1,0 +1,38 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iostream>
+                                #include <string>
+                                using namespace std;
+                                string askNumber(string prompt = "Please enter a number: ");
+                                int main()
+                                {
+                                    string number = askNumber();
+                                    cout << "Here is your number: " << number;
+                                    return 0;
+                                }
+                                string askNumber(string prompt)
+                                {
+                                    string number;
+                                    cout << prompt;
+                                    cin >> number;
+                                    return number;
+                                }
+
+                                (A) 5
+
+                                (B) 6
+
+                                (C) the number you entered
+
+                                (D) compile time error
+@
+
+$C$
+
+~
+                                Explanation: 
+                                In this program, we are getting a number and printing it.
+                                Output:
+                                Please enter a number:
+                                5
+                                Here is your number:5

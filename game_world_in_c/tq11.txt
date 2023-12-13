@@ -1,0 +1,39 @@
+                                What will be the output of the following C++ code?
+
+                                #include<iostream>
+                                using namespace std;
+
+                                class Base
+                                {
+                                public:
+                                    virtual void show() = 0;
+                                };
+
+                                class Derived: public Base
+                                {
+                                public:
+                                    void show() { cout<<"In Derived n"; }
+                                };
+
+                                int main(void)
+                                {
+                                    Derived d;
+                                    Base &br = d;
+                                    br.show();
+                                    return 0;
+                                }
+
+                                (A) Compiler Error in line "Base &br = d;"
+
+                                (B) Empty Output
+
+                                (C) In Derived
+
+                                (D) Run Time Error
+@
+
+$C$
+
+~
+                                Explanation: 
+                                In Derived

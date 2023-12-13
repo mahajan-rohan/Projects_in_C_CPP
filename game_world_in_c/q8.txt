@@ -1,0 +1,16 @@
+                                Which of the following cannot be a variable name in C?
+
+                                (A) volatile
+
+                                (B) true
+
+                                (C) friend
+
+                                (D) export
+@
+
+$A$
+
+~
+                                Explanation: 
+                                volatile is C keyword.

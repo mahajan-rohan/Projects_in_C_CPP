@@ -1,0 +1,22 @@
+                                Which of the following features must be supported by any programming 
+                                language to become a pure object-oriented programming language?
+
+                                (A) Encapsulation
+
+                                (B) Inheritance
+
+                                (C) Polymorphism
+
+                                (D) All of the above
+@
+
+$D$
+
+~
+                                Explanation: 
+                                There is nothing that forces a user to use the OOP concept in C++.
+                                In contrast, it is necessary for a programming language that it 
+                                must support all three features as encapsulation, inheritance, 
+                                and polymorphism completely to become a pure Object-Oriented 
+                                Language.
+

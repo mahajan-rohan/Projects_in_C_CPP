@@ -1,0 +1,48 @@
+                                What will be the output of the following C++ code?
+
+                                #include<iostream>
+                                using namespace std;
+                                
+                                class Base
+                                {
+                                public:
+                                    virtual void show() { cout<<" In Base n"; }
+                                };
+                                
+                                class Derived: public Base
+                                {
+                                public:
+                                    void show() { cout<<"In Derived n"; }
+                                };
+                                
+                                int main(void)
+                                {
+                                    Base *bp = new Derived;
+                                    bp->show();
+                                
+                                    Base &br = *bp;
+                                    br.show();
+                                
+                                    return 0;
+                                }
+
+                                (A) In Base 
+                                    In Base 
+
+                                (B) In Base 
+                                    In Derived
+
+                                (C) In Derived
+                                    In Derived
+
+                                (D) In Derived
+                                    In Base 
+@
+
+$C$
+
+~
+                                Explanation: 
+                                Since show() is virtual in base class, it is called according 
+                                to the type of object being referred or pointed, rather 
+                                than the type of pointer or reference.

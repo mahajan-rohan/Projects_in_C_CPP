@@ -1,0 +1,17 @@
+                                Why is a macro used in place of a function?
+
+                                (A) It reduces execution time.
+
+                                (B) It reduces code size.
+
+                                (C) It increases execution time.
+
+                                (D) It increases code size.
+@
+
+$B$
+
+~
+                                Explanation: 
+                                Macro is used in place of a function because 
+                                it reduces code size, and very efficient.

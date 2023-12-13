@@ -1,0 +1,36 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iostream>
+                
+                                class Test
+                                {
+                                public:
+                                    void fun();
+                                };
+                                static void Test::fun()   
+                                {
+                                    std::cout<<"fun() is static";
+                                }
+                                int main()
+                                {
+                                    Test::fun();   
+                                    return 0;
+                                }
+
+                                (A) fun() is static
+
+                                (B) Compile-time Error
+
+                                (C) Run-time error
+
+                                (D) Nothing is printed
+@
+
+$B$
+
+~
+                                Explanation: 
+                                The prototype of the functions are not matched. 
+                                The function declared inside a class does not have static linkage 
+                                however the class defined outside the class has the static linkage,
+                                therefore, the program gives an error.

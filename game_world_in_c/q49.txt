@@ -1,0 +1,29 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iomanip>
+                                #include <iostream>
+                                using namespace std;
+                                int main()
+                                {
+                                    cout << setprecision(17);
+                                    double d = 0.1;
+                                    cout << d << endl;
+                                    return 0;
+                                }
+
+                                (A) 0.11
+
+                                (B) 0.10000000000000001
+
+                                (C) 0.100001
+
+                                (D) compile time error
+@
+
+$B$
+
+~
+                                Explanation: 
+                                The double had to truncate the approximation due to its limited memory, 
+                                which resulted in a number that is not exactly 0.1
+                                Output: 0.10000000000000001

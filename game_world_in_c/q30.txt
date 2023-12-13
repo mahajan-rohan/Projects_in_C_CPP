@@ -1,0 +1,18 @@
+                                In C++, for what purpose the "rank()" is used?
+
+                                (A) It returns the size of each dimension
+
+                                (B) It returns the maximum number of elements that can be stored in the array
+
+                                (C) It returns the dimension of the specified array
+
+                                (D) None of the above
+@
+
+$C$
+
+~
+                                Explanation: 
+                                In C++, one can use the rank function where he wants to 
+                                know about the dimensions( e.g., single-dimension, multi-dimension) 
+                                of a specific array by just passing it to the "rank()" function.

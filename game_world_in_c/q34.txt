@@ -1,0 +1,18 @@
+                                Which of the following statement is correct about Virtual Inheritance?
+
+                                (A) It is a technique to ensure that a private member of a base class can be accessed
+
+                                (B) It is a technique to optimize the multiple inheritances
+
+                                (C) It is a technique to avoid the multiple inheritances of the classes
+
+                                (D) It is a C++ technique to avoid multiple copies of the base class into 
+                                the derived or child classes
+@
+
+$D$
+
+~
+                                Explanation: 
+                                Virtual Inheritance is a technique to avoid multiple copies 
+                                of the base class into the derived or child classes

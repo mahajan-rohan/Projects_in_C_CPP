@@ -1,0 +1,48 @@
+								What will be the output of the following C++ code?
+
+								#include <iostream>
+								using namespace std;
+								int main()
+								{
+									int x = -1;
+									try {
+										cout << "Inside try n";
+											if (x < 0)
+										{
+											throw x;
+											cout << "After throw n";
+										}
+								}
+								catch (int x ) {
+								cout << "Exception Caught n";
+								}
+
+								cout << "After catch n";
+								return 0;
+								}
+
+								(A) Inside try
+									Exception Caught
+									After throw 
+									After catch
+
+								(B)	Inside try
+									Exception Caught
+									After catch
+
+								(C)	Inside try
+									Exception Caught
+
+								(D)	Inside try
+									After throw
+									After catch
+@
+
+$B$
+
+~
+								Explanation: 
+								When an exception is thrown, lines of try block after the 
+								throw statement are not executed. When exception is caught, 
+								the code after catch block is executed. 
+								Catch blocks are generally written at the end through.

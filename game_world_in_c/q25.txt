@@ -1,0 +1,21 @@
+                                A pointer is a memory address. Suppose the pointer variable has p address 1000,
+                                and that p is declared to have type int*, and an int is 4 bytes long. 
+                                What address is represented by expression p + 2?
+
+                                (A) 1002
+
+                                (B) 1004
+
+                                (C) 1006
+
+                                (D) 1008
+@
+
+$D$
+
+~
+                                Explanation: 
+                                In pointer arithmetic, when we add or subtract a value from a ponter varible is basically
+                                deals with the size of the data type defined as pointer of.
+                                Suppose, in above example the pointer is of char then the answer would be 1002, 
+                                as char has a size of 1 byte only and p+2 will be 1002

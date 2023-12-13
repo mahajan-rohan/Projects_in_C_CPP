@@ -1,0 +1,27 @@
+                                What is the output of the given program?
+
+                                #include < stdio.h >  
+                                using namespace std;  
+                                int main()  
+                                {  
+                                    int array[] = {10, 20, 30};  
+                                    cout << -2[array];  
+                                    return 0;  
+                                }  
+
+                                (A) -15
+
+                                (B) -30
+
+                                (C) Compile error
+
+                                (D) Garbage Value
+@
+
+$B$
+
+~
+                                Explanation: 
+                                It will print the negative value of the specified values because 
+                                the "-" sign we used while specifying the array elements. 
+                                So the correct answer will be the "-30".

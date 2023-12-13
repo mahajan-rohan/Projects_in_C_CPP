@@ -1,0 +1,25 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iostream>
+                
+                                int main(int argc, char const *argv[])
+                                {
+                                    cout<<"Hello World";
+                                    return 0;
+                                }
+
+                                (A) Hello World
+
+                                (B) Compile-time error
+
+                                (C) Run-time error
+
+                                (D) Segmentation fault
+@
+
+$B$
+
+~
+                                Explanation: 
+                                cout is defined under the namespace std and without including 
+                                std namespace we cannot cout,therefore, the program gives an error.

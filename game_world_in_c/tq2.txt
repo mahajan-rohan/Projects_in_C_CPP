@@ -1,0 +1,38 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iostream>
+                                using namespace std;
+                                void func(int a, bool flag = true)
+                                {
+                                    if (flag == true ) 
+                                    {
+                                        cout << "Flag is true. a = " << a;
+                                    }
+                                    else 
+                                    {
+                                        cout << "Flag is false. a = " << a;
+                                    }
+                                }
+                                int main()
+                                {
+                                    func(200, false);
+                                    return 0;
+                                }
+
+                                (A) Flag is true. a = 200
+
+                                (B) Flag is false. a = 100
+
+                                (C) Flag is false. a = 200
+
+                                (D) Flag is true. a = 100
+@
+
+$C$
+
+~
+                                Explanation: 
+                                In this program, we are passing the value, 
+                                as it evaluates to false, it produces the output as following.
+                                Output:
+                                Flag is false. a = 200

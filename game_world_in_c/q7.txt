@@ -1,0 +1,17 @@
+                                Who is the father of C language?
+
+                                (A) Steve Jobs 
+
+                                (B) James Gosling 
+
+                                (C) Dennis Ritchie 
+
+                                (D) Rasmus Lerdorf
+@
+
+$C$
+
+~
+                                Explanation: Dennis Ritchie is the father of C Programming Language. 
+                                C programming language was developed in 1972 at American Telephone
+                                & Telegraph Bell Laboratories of USA.

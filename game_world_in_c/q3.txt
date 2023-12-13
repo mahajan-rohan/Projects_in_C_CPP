@@ -1,0 +1,17 @@
+                                Which of the following is true about return type of functions in C?
+
+                                (A) Functions can return any type 
+
+                                (B) Functions can return any type except array and functions 
+
+                                (C) Functions can return any type except array, functions and union
+
+                                (D) Functions can return any type except array, functions, function pointer and union
+@
+
+$B$
+
+~
+                                Explanation: 
+                                In C, functions can return any type except arrays and functions.
+                                We can get around this limitation by returning pointer to array or pointer to function.

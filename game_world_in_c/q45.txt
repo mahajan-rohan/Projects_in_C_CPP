@@ -1,0 +1,33 @@
+								What will be the output of the following C++ code?
+
+								#include<iostream>
+								using namespace std;
+								class A
+								{
+									~A(){
+										cout<<"Destructor called\n";
+										}
+								};
+								int main()
+								{
+									A *a1 = new A();
+									A *a2 = new A();
+									return 0;
+								}
+
+								(A) Destructor called
+
+								(B) Destructor called
+									Destructor called
+
+								(C) Error
+
+								(D) Nothing is Printed
+@
+
+$D$
+
+~
+								Explanation: 
+								The pointer object is created is not deleted hence the 
+								destructor for these objects is not called hence nothing is printed on the screen.

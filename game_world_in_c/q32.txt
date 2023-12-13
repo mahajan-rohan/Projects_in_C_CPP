@@ -1,0 +1,29 @@
+                                Observe the given C++ program carefully and choose the correct output from the given options:
+
+                                #include <iostream>  
+                                #include <string>  
+                                using namespace std;  
+                                int main()  
+                                {  
+                                    cout<<is_array<int>::value; // case A  
+                                    cout<<is_array<char[10]>::value; // case B  
+                                    cout<<is_array<string>::value;  // case c  
+                                    return 0;  
+                                }  
+
+                                (A) 110
+
+                                (B) 001
+
+                                (C) 010
+
+                                (D) None of the above
+@
+
+$C$
+
+~
+                                Explanation: 
+                                The correct output will be "010" Because in both cases, A and C variables passed to 
+                                the "is_array()" function are different, so the function returns zero 
+                                in both cases while in the case of B, they are the same. Hence it returns one as the output.
