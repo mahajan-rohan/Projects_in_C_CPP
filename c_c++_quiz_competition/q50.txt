@@ -1,0 +1,35 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iostream>
+                                using namespace std;
+                                int Add(int X, int Y, int Z)
+                                {
+                                    return X + Y;
+                                }
+                                double Add(double X, double Y, double Z)
+                                {
+                                    return X + Y;
+                                }
+                                int main()
+                                {
+                                    cout << Add(5, 6);
+                                    cout << Add(5.5, 6.6);
+                                    return 0;
+                                }
+
+                                (A) 11 12.1
+
+                                (B) 12.1 11
+
+                                (C) 11 12
+
+                                (D) compile time error
+@
+
+$D$
+
+~
+                                Explanation: 
+                                As one can observe that no function has declaration similar 
+                                to that of called Add(int, int) and Add(double, double) functions.
+                                Therefore, error occurs.

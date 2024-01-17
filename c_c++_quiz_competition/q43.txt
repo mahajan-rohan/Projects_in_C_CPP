@@ -1,0 +1,17 @@
+                                Which of the following is a static polymorphism mechanism?
+
+                                (A) Function overloading
+
+                                (B) Operator overloading
+
+                                (C) Templates
+
+                                (D) All of the mentioned
+@
+
+$D$
+
+~
+                                Explanation: 
+                                All the options mentioned above uses static polymorphism mechanism. 
+                                As the conflicts in all these types of functions are resolved during compile-time.

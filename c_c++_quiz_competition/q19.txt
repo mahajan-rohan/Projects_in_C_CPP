@@ -1,0 +1,27 @@
+                                What is the output of this C code?
+
+                                #include <stdio.h>
+                                int main()
+                                {
+                                    if (sizeof(int) > -1)
+                                        printf("True");
+                                    else
+                                        printf("False");
+                                }
+
+                                (A) True
+
+                                (B) False
+
+                                (C) No Output will be printed
+
+                                (D) Run Time Error
+@
+
+$B$
+
+~
+                                Explanation: 
+                                sizeof(int) will return size of integer i.e 4
+                                And the condition 4 > -1 will be False
+                                So else will get executed

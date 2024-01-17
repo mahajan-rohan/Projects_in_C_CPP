@@ -1,0 +1,18 @@
+                                What does the following C statement mean?
+
+                                scanf("%4s", str);
+
+                                (A) Read exactly 4 characters from console.
+
+                                (B) Read maximum 4 characters from console.
+
+                                (C) Read a string str in multiples of 4
+
+                                (D) Nothing
+@
+
+$B$
+
+~
+                                Explanation: 
+                                Read maximum 4 characters from console.

@@ -1,0 +1,27 @@
+                                What will be the output of the following C code? (Initial values: x= 7, y = 8)
+
+                                #include <stdio.h>
+                                void main()
+                                {
+                                    float x;
+                                    int y;
+                                    printf("enter two numbers \n");
+                                    scanf("%f %f", &x, &y);
+                                    printf("%f, %d", x, y);
+                                }
+
+                                (A) 7.000000, 7
+
+                                (B) Run time error
+
+                                (C) 7.000000, junk
+
+                                (D) Varies
+@
+
+$C$
+
+~
+                                Explanation: 
+                                Since y is an integer when taking input from scanf the format specifier is %f.
+                                So this %f will not take any integer.

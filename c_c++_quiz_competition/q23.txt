@@ -1,0 +1,17 @@
+                                In the C language, the constant is defined _______.
+
+                                (A) Before main
+
+                                (B) After main
+
+                                (C) Anywhere, but starting on a new line.
+
+                                (D) None of the these.
+@
+
+$C$
+
+~
+                                Explanation: 
+                                In the C language, the constant is defined anywhere, 
+                                but starting on a new line.

@@ -1,0 +1,27 @@
+                                What will be the output of the following C++ code?
+
+                                #include<iostream>
+                                using namespace std;
+                                int main()
+                                {
+                                    int cin;
+                                    cin >> cin;
+                                    cout << "cin: " << cin;
+                                    return 0;
+                                }
+
+                                (A) cin: garbage value
+
+                                (B) Error
+
+                                (C) Segmentation fault
+
+                                (D) Nothing is printed
+@
+
+$A$
+
+~
+                                Explanation: 
+                                cin is a variable hence overrides the cin object. 
+                                cin >> cin has no meaning so no error.

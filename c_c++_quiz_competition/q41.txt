@@ -1,0 +1,19 @@
+                            Among the following, which statement is correct about the Modularity?
+
+                            (A) Modularity means hiding the parts of the program
+
+                            (B) Modularity refers to dividing a program into subsequent small modules or independent parts
+
+                            (C) It refers to overloading the program's part
+
+                            (D) Modularity refers to wrapping the data and its functionality into a single entity
+@
+
+$B$
+
+~
+                            Explanation: 
+                            Modularity refers to dividing a program into small independent code blocks or modules 
+                            so that they can be easily called anywhere in the entire program where it is required. 
+                            The concept of Modularity is very efficient and helpful for developers because it makes 
+                            the program well structured and easy to understand.

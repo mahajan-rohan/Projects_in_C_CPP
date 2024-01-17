@@ -1,0 +1,21 @@
+                                What is the output of this C code?
+
+                                main()  
+                                {printf("javatpoint");  
+                                main();}  
+
+                                (A) Wrong statement
+
+                                (B) It will keep on printing javatpoint
+
+                                (C) It will Print javatpoint once
+
+                                (D) Run Time Error
+@
+
+$B$
+
+~
+                                Explanation: 
+                                In this program, the main function will call itself again and again.
+                                Therefore, it will continue to print javatpoint.

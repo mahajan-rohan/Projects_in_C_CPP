@@ -1,0 +1,31 @@
+                                How many times Hello Will be printed in the below C code ?
+
+                                #include <stdio.h>
+                                int main()
+                                {
+                                    int k,j;
+                                    for (k=0;k<=10;k+=2)
+                                    {
+                                        for(j=1;j!=k;j=j+1)
+                                        {
+                                            printf("Hello\n");
+                                            break;
+                                        }
+                                    }
+                                }
+                                (A) 10 Times
+
+                                (B) 5 Times
+
+                                (C) 6 Times
+
+                                (D) Infinite Times
+@
+
+$C$
+
+~
+                                Explanation: 
+                                for j=1, the inner for loop is always executed. 
+                                Thus, it will print Hello and come out of the inner loop.
+                                Thus, hello will be printed six times (i.e. for k=0,2,4,6,8 and 10).

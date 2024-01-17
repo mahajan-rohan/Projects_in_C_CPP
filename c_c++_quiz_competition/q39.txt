@@ -1,0 +1,17 @@
+                                Which of the following is used for implementing the late binding?
+
+                                (A) Operator Functions
+
+                                (B) Constant Functions
+
+                                (C) Virtual Functions
+
+                                (D) Both A and B
+@
+
+$C$
+
+~
+                                Explanation: 
+                                A virtual function can be used for implementing the concept of late binding. 
+                                For example - Binding the actual functions to their corresponding calls.

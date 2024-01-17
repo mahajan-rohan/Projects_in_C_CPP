@@ -1,0 +1,19 @@
+                                Which of the following is not a logical operator?
+
+                                (A) && 
+
+                                (B) ! 
+
+                                (C) || 
+
+                                (D) |
+@
+
+$D$
+
+~
+                                Explanation: 
+                                &&- Logical AND 
+                                !- Logical NOT 
+                                ||- Logical OR 
+                                |- Bitwise OR(used in bitwise manipulations)

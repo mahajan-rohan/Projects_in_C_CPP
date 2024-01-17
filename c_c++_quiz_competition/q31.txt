@@ -1,0 +1,17 @@
+                                Which one of the following is the correct definition of the "is_array();" function in C++?
+
+                                (A) It checks that the specified variable is of the array or not
+
+                                (B) It checks that the specified array of single dimension or not
+
+                                (C) It checks that the array specified of multi-dimension or not
+
+                                (D) Both B and C
+@
+
+$A$
+
+~
+                                Explanation: 
+                                In C++, the "is_array();" is used for checking 
+                                that the specified element or data item belongs to the array type or not.

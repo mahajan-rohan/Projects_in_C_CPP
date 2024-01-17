@@ -1,0 +1,30 @@
+                                What will be the output of the following C++ code?
+
+                                #include<iostream>
+                                using namespace std;
+                                int x = 1;
+                                int main()
+                                {
+                                    int x = 2;
+                                    {
+                                        int x = 3;
+                                        cout << ::x << endl;
+                                    }
+                                    return 0;
+                                }
+
+                                (A) 1
+
+                                (B) 2
+
+                                (C) 3
+
+                                (D) 123
+@
+
+$A$
+
+~
+                                Explanation: 
+                                While printing x we are using :: operator hence the refernce is 
+                                given to global variable hence the global variable x = 1 is printed.

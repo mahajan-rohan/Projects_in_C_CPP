@@ -1,0 +1,20 @@
+                                How are the references different from the pointer?
+
+                                (A) A reference cannot be modified once it initialized
+
+                                (B) here is no need of an extra operator for dereferencing of a reference
+
+                                (C) A reference cannot be NULL
+
+                                (D) All of above
+@
+
+$D$
+
+~
+                                Explanation: 
+                                These are some basic reasons why the references are far different from the pointers.
+                                In the case of pointers "*" operator is required for dereferencing the value contain by it. 
+                                However, the reference does not need any type of operator for deference.
+                                A Reference cannot be modified once it is initialized, but it is possible to do so in the case of a pointer.
+                                A pointer can be made Null, whereas a reference cannot be NULL.

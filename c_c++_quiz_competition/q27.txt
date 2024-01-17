@@ -1,0 +1,16 @@
+                                Each instance of a class has a different set of
+
+                                (A) Class interfaces
+
+                                (B) Methods
+
+                                (C) Return types
+
+                                (D) Attribute values
+@
+
+$D$
+
+~
+                                Explanation: 
+                                Each instance of the class has a different set of attribute values

@@ -1,0 +1,18 @@
+                                Which one of the following cannot be used with the virtual keyword?
+
+                                (A) Constructor
+
+                                (B) Destructor
+
+                                (C) Member function
+
+                                (D) All of the above
+@
+
+$A$
+
+~
+                                Explanation: 
+                                In C++, we cannot use the virtual keyword with the Constructor because constructors 
+                                are generally defined to initialize the object of a specific class; hence no other 
+                                class requires the other class's object.

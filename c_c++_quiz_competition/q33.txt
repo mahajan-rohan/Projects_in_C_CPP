@@ -1,0 +1,25 @@
+                                Which of the following statement is true about the new and malloc?
+
+                                1. The "new" is a type of operator while "malloc" is a kind of function
+
+                                2. "new" invokes a constructor, whereas "malloc" does not invoke the constructor
+
+                                3.  "malloc" returns void pointer and also needed to typecast whereas "new" returns required the pointer
+
+                                (A) Only 1
+
+                                (B) Both 1 & 2
+
+                                (C) 1,2,3
+
+                                (D) None of the above
+@
+
+$C$
+
+~
+                                Explanation: 
+                                All statements mentioned in the above question are completely true
+                                about the "malloc" and the "new." The "malloc" is a kind of function 
+                                available in the C++ language, while the "new" is a type of operator 
+                                that invokes the Constructor.

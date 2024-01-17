@@ -1,0 +1,30 @@
+                                What happens if the following code is compiled on both C and C++?
+
+                                #include<stdio.h>
+                                struct STRUCT
+                                {
+                                private:
+                                    int a;
+                                };
+                                int main()
+                                {
+                                    printf("%d\n", (int)sizeof(struct STRUCT));
+                                    return 0;
+                                }
+
+                                (A) The program runs fine and both prints output “HELLO THIS IS STRUCTURE”
+
+                                (B) The program gives an error in case of C but runs perfectly in case of C++
+
+                                (C) The program gives an error in case of C++ but runs perfectly in case of C
+
+                                (D) The program gives an error in case of both C and C++
+@
+
+$B$
+
+~
+                                Explanation: 
+                                Access specifiers like private, protected and the public are used because 
+                                the OOPs concept and as C is not an Object Oriented language, 
+                                therefore, access specifiers are not defined in C and hence C gives error whereas C++ does not.

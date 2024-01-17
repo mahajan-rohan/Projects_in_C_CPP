@@ -1,0 +1,16 @@
+                                In C language, FILE is of which data type?
+
+                                (A) int
+
+                                (B) char *
+
+                                (C) struct
+
+                                (D) None of the mentioned
+@
+
+$C$
+
+~
+                                Explanation: 
+                                struct 

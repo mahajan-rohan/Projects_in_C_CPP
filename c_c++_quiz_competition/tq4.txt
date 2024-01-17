@@ -1,0 +1,27 @@
+                                How many times will the print statement be executed?
+
+                                main(){
+                                    int i = 0;
+                                    label:
+                                    cout << "Interviewbit";
+                                    i++;
+                                    if(i < 3){
+                                        goto label;
+                                    }       
+                                }
+
+                                (A) 1 Time
+
+                                (B) 2 Times
+
+                                (C) 3 Times
+
+                                (D) compile time error
+@
+
+$C$
+
+~
+                                Explanation: 
+                                Interviewbit will be printed 3 times, since for every if i < 3, 
+                                it goes to label and an iteration occurs.

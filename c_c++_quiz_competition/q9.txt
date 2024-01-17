@@ -1,0 +1,16 @@
+                                Which of the following declaration is not supported by C language?
+
+                                (A) String str;
+
+                                (B) char *str;
+
+                                (C) float str = 3e2;
+
+                                (D) Both String str; and float str = 3e2;
+@
+
+$A$
+
+~
+                                Explanation: 
+                                It is legal in Java, but not in C language.

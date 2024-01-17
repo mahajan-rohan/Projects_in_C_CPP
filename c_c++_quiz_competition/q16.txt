@@ -1,0 +1,25 @@
+                                How many times i value is checked in the following C program?
+
+                                #include <stdio.h>
+                                int main()
+                                {
+                                    int i = 0;
+                                    while (i < 3)
+                                    i++;
+                                    printf("In while loop\n");
+                                }
+
+                                (A) 2
+
+                                (B) 3
+
+                                (C) 4
+
+                                (D) 1
+@
+
+$C$
+
+~
+                                Explanation: 
+                                The last iteration will 4 < 3 and the loop will break.

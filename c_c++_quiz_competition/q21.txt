@@ -1,0 +1,28 @@
+                                What is the output of this C code?
+
+                                main()  
+                                {  
+                                    int a = 1, b = 2, c = 3:  
+                                    printf("%d", a + = (a + = 3, 5, a))  
+                                }  
+
+                                (A) 6
+
+                                (B) 9
+
+                                (C) 12
+
+                                (D) 8
+@
+
+$D$
+
+~
+                                Explanation: 
+                                It is an effect of the comma operator.
+                                a + = (a + = 3, 5, a)
+                                It first evaluates to "a + = 3" i.e. a = a + 3 
+                                then evaluate 5 and then evaluate "a".
+                                Therefore, we will get the output is 4.
+                                Then, a + = 4
+                                It gives 8 as the output.

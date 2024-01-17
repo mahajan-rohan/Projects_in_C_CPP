@@ -1,0 +1,25 @@
+                                What will be the output of the following C code?
+
+                                #include <stdio.h>
+                                int main()
+                                {
+                                    int y = 10000;
+                                    int y = 34;
+                                    printf("Hello World! %d\n", y);
+                                    return 0;
+                                }
+
+                                (A) Compile time error
+
+                                (B) Hello World! 34
+
+                                (C) Hello World! 1000
+
+                                (D) Hello World! followed by a junk value
+@
+
+$A$
+
+~
+                                Explanation: 
+                                Since y is already defined, redefining it results in an error.

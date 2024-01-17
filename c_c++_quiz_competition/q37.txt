@@ -1,0 +1,17 @@
+                                Which of the following statements is correct about the friend function in C++ programming language?
+
+                                (A) A friend function is able to access private members of a class
+
+                                (B) A friend function can access the private members of a class
+
+                                (C) A friend function is able to access the public members of a class
+
+                                (D) All of the above
+@
+
+$D$
+
+~
+                                Explanation: 
+                                A friend function can access any member of a class without caring about the type of member it contains, 
+                                such as public, private, and protected.

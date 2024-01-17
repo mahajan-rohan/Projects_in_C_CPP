@@ -1,0 +1,42 @@
+                                What will be the output of the following C++ code?
+
+                                #include <iostream>
+                                using namespace std;
+
+                                int main()
+                                {
+                                    try
+                                    {
+                                    throw 'a';
+                                    }
+                                    catch (int param)
+                                    {
+                                        cout << "int exceptionn";
+                                    }
+                                    catch (...)
+                                    {
+                                        cout << "default exceptionn";
+                                    }
+                                    cout << "After Exception";
+                                    return 0;
+                                }
+
+                                (A) default exception
+                                    After Exception
+
+                                (B) int exception
+                                    After Exception
+
+                                (C) int exception
+
+                                (D) default exception
+@
+
+$A$
+
+~
+                                Explanation: 
+                                The block catch(...) is used for catch all, when a data type of a thrown exception 
+                                doesn't match with any other catch block, the code inside catch(...) is executed. 
+                                Note that the implicit type conversion doesn't happen when exceptions are caught. 
+                                The character 'a' is not automatically converted to int.

@@ -1,0 +1,18 @@
+                                In C, static storage class cannot be used with:
+
+                                (A) Global variable
+
+                                (B) Function parameter
+
+                                (C) Function name
+
+                                (D) Local variable
+@
+
+$B$
+
+~
+                                Explanation: 
+                                Declaring a global variable as static limits its scope to the same file in which it is defined. 
+                                A static function is only accessible to the same file in which it is defined. 
+                                A local variable declared as static preserves the value of the variable between the function calls.
